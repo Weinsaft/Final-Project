@@ -134,7 +134,7 @@ img{
 
 .products .container-wide{
     justify-content: space-between;
-    margin:50px auto;
+    margin:70px auto;
 }
 
 .card{
@@ -170,4 +170,33 @@ img{
 
 .about a:hover{
     opacity: 45%;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.item a{
+    padding: 5px;
+}
+
+.social-credit a{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:930px){
+    .item h2{
+        font-size: 0.9rem;
+
+    }
+}
+
+@media screen and (max-width:600px){
+    .button a{
+        padding: 5px;
+        font-size: 0.6rem;
+
+    }
 }
