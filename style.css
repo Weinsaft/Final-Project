@@ -211,8 +211,26 @@ img {
 
 }
 
+@media screen and (max-width:700px){
+    .product-name a {
+        font-size: 0.7rem;
+    
+    }
+}
+
 footer {
     background-color: #fafafa;
     padding: 20px;
     margin-top: 20px;
+}
+
+
+@media screen and (max-width:600px){
+    .main-footer a {
+        font-size: 0.7rem;
+    }
+
+    .main-footer  {
+        font-size: 0.7rem;
+    }
 }
