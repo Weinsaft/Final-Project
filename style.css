@@ -134,7 +134,7 @@ img{
 
 .products .container-wide{
     justify-content: space-between;
-    margin:30px auto;
+    margin:50px auto;
 }
 
 .card{
@@ -146,7 +146,8 @@ img{
 
  .button a{
     border: 1px solid black;
-    padding: 15px;
+    padding: 10px;
+    font-size: 0.8rem;
 }
 
 .button a:hover{
@@ -157,4 +158,16 @@ img{
 
 .button{
     direction: rtl;
+}
+
+.box1{
+    margin: 10px 10px 0  0;
+}
+
+.box2{
+    margin: 10px 0 10px  10px;
+}
+
+.about a:hover{
+    opacity: 45%;
 }
