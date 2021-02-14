@@ -2,11 +2,118 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     margin:0;
+    font-family: 'Raleway', sans-serif;
 }
 
 img{
     max-width: 100%;
     height: auto;
+}
+
+.container,
+.container-wide{
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+
+}
+
+
+@media screen and (min-width:1200px){
+    .container,
+    .container-wide{
+        width: 1200px;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (min-width:1600px){
+    .container-wide{
+        width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+.main-nav .container-wide{
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.main-nav .menu{
+    display: flex;
+}
+
+.main-nav .menu a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 10px;
+    
+}
+
+.main-nav .user a{
+    margin: 0 10px;
+}
+
+.main-nav a:hover{
+    color: dimgray;
+}
+
+@media screen and (max-width:1000px){
+    input{
+        display: none;
+    }
+}
+
+@media screen and (max-width:815px){
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width:755px){
+    .main-nav .menu a{
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width:755px){
+    .main-nav .menu a{
+        font-size: 0.8rem;
+    }
+
+    .main-nav .user a{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:525px){
+    .main-nav .menu a{
+        font-size: 0.6rem;
+    }
+
+    .main-nav .user a{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:445px){
+    .main-nav .user a{
+        margin: 0 5px;
+        font-size: 0.5rem;
+    }
+
+    .main-nav .menu a{
+        font-size: 0.5rem;
+    }
+
+   
 }
