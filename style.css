@@ -74,7 +74,7 @@ img {
 }
 
 @media screen and (max-width:1000px) {
-    input {
+    .user input {
         display: none;
     }
 }
@@ -301,7 +301,7 @@ footer {
 }
 
 .item{
-    margin-right: 100px;
+    margin-right: 5%;
 }
 
 .form{
@@ -328,12 +328,12 @@ footer {
     justify-content: center;
 }
 
-.inputField{
+.input_field{
     margin-bottom:20px;
 
 }
 
-.wrapper .inputField input[type="text"],
+.wrapper .input_field input[type="text"],
 .wrapper textarea{
     width: 100%;
     border: 1px solid black;
@@ -344,4 +344,39 @@ footer {
     height: 80px;
     resize: none;
    
+}
+
+.wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #000000;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  } 
+
+  .wrapper .btn input[type="submit"]:hover{
+      color: black;
+      background: white;
+      border: 1px solid black;
+  }
+
+
+.wrapper #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background:#fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.wrapper h2{
+    font-size: 2rem;
 }
