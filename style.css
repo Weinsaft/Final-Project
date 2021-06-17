@@ -304,4 +304,44 @@ footer {
     margin-right: 100px;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.wrapper{
+    top: 50%;
+    left: 50%;
+    max-width: 350px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+  
+}
+
+.Fwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.inputField{
+    margin-bottom:20px;
+
+}
+
+.wrapper .inputField input[type="text"],
+.wrapper textarea{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+   
+}

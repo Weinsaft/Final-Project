@@ -5,13 +5,10 @@ const navSlide = () => {
     const nav = document.querySelector('.nav-links');
     const navlinks = document.querySelectorAll('.nav-link li');
 
-
     burger.addEventListener('click',()=>{
         
         nav.classList.toggle('main-nav');
     });
-
-   
 }
-
 navSlide();
+
