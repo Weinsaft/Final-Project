@@ -41,9 +41,25 @@
                 <input type="text" placeholder="Search...">
                 <a href="user.html"><i class="fa fa-user"></i></a>
                 <a href="likedProducts.html"><i class="fa fa-heart"></i></a>
-                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                
+                    <button type="button" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info"></span>
+                    </button>
+
+                    <div class="cart-container">
+                        <div class="cart-list">
+
+                        </div>
+
+                        <div class="cart-total">
+                            <h3>Total: $</h3>
+                            <span id="cart-total-value"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        
     </nav>
 
     <header class="main-header">
@@ -70,7 +86,9 @@
                     <a href="singleProductPage.html"><img src="images/product5.png" alt="product"></a>
                 </div>
                 <div class="product-name">
-                    <a href="singleProductPage.html"><h4>Product Name</h4></a>
+                    <a href="singleProductPage.html">
+                        <h4>Product Name</h4>
+                    </a>
                 </div>
                 <div class="product-price">
                     <a href="singleProductPage.html">30 NIS</a>
@@ -82,7 +100,9 @@
                     <a href="singleProductPage.html"><img src="images/product2.png" alt="product"></a>
                 </div>
                 <div class="product-name">
-                    <a href="singleProductPage.html"><h4>Product Name</h4></a>
+                    <a href="singleProductPage.html">
+                        <h4>Product Name</h4>
+                    </a>
                 </div>
                 <div class="product-price">
                     <a href="singleProductPage.html">30 NIS</a>
@@ -94,7 +114,9 @@
                     <a href="singleProductPage.html"><img src="images/product1.png" alt="product"></a>
                 </div>
                 <div class="product-name">
-                    <a href="singleProductPage.html"><h4>Product Name</h4></a>
+                    <a href="singleProductPage.html">
+                        <h4>Product Name</h4>
+                    </a>
                 </div>
                 <div class="product-price">
                     <a href="singleProductPage.html">30 NIS</a>
@@ -106,7 +128,9 @@
                     <a href="singleProductPage.html"><img src="images/product3.png" alt="product"></a>
                 </div>
                 <div class="product-name">
-                    <a href="singleProductPage.html"><h4>Product Name</h4></a>
+                    <a href="singleProductPage.html">
+                        <h4>Product Name</h4>
+                    </a>
                 </div>
                 <div class="product-price">
                     <a href="singleProductPage.html">30 NIS</a>
@@ -123,7 +147,7 @@
         <div class="about">
             <div class="container">
                 <div class="box1">
-                    <a href="#"><img src="images/About/whoweare.png" alt="whoweare"></a>
+                    <a href="aboutUs.html"><img src="images/About/whoweare.png" alt="whoweare"></a>
                 </div>
 
                 <div class="box2">
@@ -158,17 +182,21 @@
                     <a href="#">Wholesale</a>
                 </div>
 
-                
+
                 <div id="social" class="social-credit">
                     <div class="social">
                         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
                     </div>
                     <div class="credit-card">
-                        <a href="https://www.americanexpress.com/us/credit-cards/features-benefits/additional-card/terms-and-conditions.html" target="blank"><i class="fab fa-cc-amex"></i></a>
-                        <a href="https://usa.visa.com/support/consumer/visa-rules.html" target="blank"><i class="fab fa-cc-visa"></i></a>
-                        <a href="https://www.mastercard.us/en-us/vision/who-we-are/terms-of-use.html" target="blank"><i class="fab fa-cc-mastercard"></i></a>
-                        <a href="https://www.paypal.com/us/webapps/mpp/ua/useragreement-full" target="blank"><i class="fab fa-cc-paypal"></i></a>
+                        <a href="https://www.americanexpress.com/us/credit-cards/features-benefits/additional-card/terms-and-conditions.html"
+                            target="blank"><i class="fab fa-cc-amex"></i></a>
+                        <a href="https://usa.visa.com/support/consumer/visa-rules.html" target="blank"><i
+                                class="fab fa-cc-visa"></i></a>
+                        <a href="https://www.mastercard.us/en-us/vision/who-we-are/terms-of-use.html" target="blank"><i
+                                class="fab fa-cc-mastercard"></i></a>
+                        <a href="https://www.paypal.com/us/webapps/mpp/ua/useragreement-full" target="blank"><i
+                                class="fab fa-cc-paypal"></i></a>
                     </div>
                     <div class="credits">
                         <p>© T-MANTRA All Rights Reserved</p>
@@ -178,4 +206,5 @@
         </footer>
         <script src="script.js"></script>
 </body>
+
 </html>

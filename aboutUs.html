@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon-16x16.png">
 </head>
+
 <body>
 
     <nav class="main-nav">
@@ -40,34 +42,53 @@
                 <input type="text" placeholder="Search...">
                 <a href="user.html"><i class="fa fa-user"></i></a>
                 <a href="likedProducts.html"><i class="fa fa-heart"></i></a>
-                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+
+                <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                </button>
+
+                <div class="cart-container">
+                    <div class="cart-list">
+
+                    </div>
+
+                    <div class="cart-total">
+                        <h3>Total: $</h3>
+                        <span id="cart-total-value"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
-    
+
     <div class="container aboutText">
-    <div class="text">
-        <h1>About Us | WHO WE ARE</h1>
+        <div class="text">
+            <h1>About Us | WHO WE ARE</h1>
 
-        <p>We are a collective of dreamers.</p> 
-        <p>Our main goal is bringing our artwork to life. With an experience of over two decades - encountering and tackling new challenges has become a part of who we are.</p>
+            <p>We are a collective of dreamers.</p>
+            <p>Our main goal is bringing our artwork to life. With an experience of over two decades - encountering and
+                tackling new challenges has become a part of who we are.</p>
 
-        <p>Each Plazmalab member contributes to what we'd like to think of as a "creative house" that extends itself way beyond fashion. these days you can see our art on clothes, walls, huge wooden constructions, etc.
-            
-            You name it, we're glad to do it.</p>
-            
-            Our products are all manufactured locally, done individually by a bunch of super talented, creative craftsmen. The designers, ink masters and pattern makers all have a part in the elaborate process of production. 
-            
+            <p>Each Plazmalab member contributes to what we'd like to think of as a "creative house" that extends itself
+                way beyond fashion. these days you can see our art on clothes, walls, huge wooden constructions, etc.
+
+                You name it, we're glad to do it.</p>
+
+            Our products are all manufactured locally, done individually by a bunch of super talented, creative
+            craftsmen. The designers, ink masters and pattern makers all have a part in the elaborate process of
+            production.
+
             Plazmalab can be found in a variety of shops, music festivals, and art events all over the world.</p>
-    </div>
-
-    <div class="container aboutImg">
-        <div class="art">
-            <img src="images/T-MantraLOGO.jpg" alt="artistprojects">
         </div>
-    </div>
 
-</div>
+        <div class="container aboutImg">
+            <div class="art">
+                <img src="images/T-MantraLOGO.jpg" alt="artistprojects">
+            </div>
+        </div>
+
+    </div>
 
     <footer class="main-footer">
         <div class="container-wide">
@@ -95,10 +116,14 @@
                     <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
                 </div>
                 <div class="credit-card">
-                    <a href="https://www.americanexpress.com/us/credit-cards/features-benefits/additional-card/terms-and-conditions.html" target="blank"><i class="fab fa-cc-amex"></i></a>
-                    <a href="https://usa.visa.com/support/consumer/visa-rules.html" target="blank"><i class="fab fa-cc-visa"></i></a>
-                    <a href="https://www.mastercard.us/en-us/vision/who-we-are/terms-of-use.html" target="blank"><i class="fab fa-cc-mastercard"></i></a>
-                    <a href="https://www.paypal.com/us/webapps/mpp/ua/useragreement-full" target="blank"><i class="fab fa-cc-paypal"></i></a>
+                    <a href="https://www.americanexpress.com/us/credit-cards/features-benefits/additional-card/terms-and-conditions.html"
+                        target="blank"><i class="fab fa-cc-amex"></i></a>
+                    <a href="https://usa.visa.com/support/consumer/visa-rules.html" target="blank"><i
+                            class="fab fa-cc-visa"></i></a>
+                    <a href="https://www.mastercard.us/en-us/vision/who-we-are/terms-of-use.html" target="blank"><i
+                            class="fab fa-cc-mastercard"></i></a>
+                    <a href="https://www.paypal.com/us/webapps/mpp/ua/useragreement-full" target="blank"><i
+                            class="fab fa-cc-paypal"></i></a>
                 </div>
                 <div class="credits">
                     <p>© T-MANTRA All Rights Reserved</p>
@@ -108,4 +133,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
